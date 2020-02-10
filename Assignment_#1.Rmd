@@ -1,0 +1,17 @@
+---
+title: "Assignment#1"
+author: "Tyler Cobian"
+date: "2/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+###Why I am taking ESM 262
+I am taking ESM 262 to sharpen my data science skills. I particularly want to know more about modeling and training models. I would love to know more about how to use functions more intricately and how to operate the caret and stick packages. I am very interested in learning more about how to train models by testing them against saved data.
+
+
+### My data science background
+I have taken (or am currently taking) ESM 206 and ESM 244 and am on track to finish the environmental data science focus. My GP using a model that projects the soil carbon and greenhouse gas fluxes of agricultural soils when different management practices are implemented. We have used this model to access the impact of regenerative agriculture within Patagonia's supply chain.
+
