@@ -1,0 +1,16 @@
+---
+title: "Assignment#1"
+author: "Tyler Cobian"
+date: "2/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Why I am taking ESM262
+I am taking ESM 262 because I want to learn more about functions and how to use them more intricatly. I would also love to know more about the caret and stick packages for training models.
+
+### My data science experience
+I have taken ESM 244 and ESM 206. My GP is also using a fair amount of modeling to model for changes in soil carbon with regenrative agriculture. 
