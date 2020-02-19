@@ -1,0 +1,59 @@
+---
+title: "function"
+author: "Tyler Cobian"
+date: "2/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Make an example fucntion
+```{r}
+ghg<- function(element, kg){
+  
+  if(element == "carbon"){
+    return(5.077*kg)
+    
+    } 
+  else if(element == "nitrogen"){
+    return(624.643*kg)
+  }
+  
+  else if (element == "methane"){return(37.333*kg)}
+}
+
+ghg("carbon", kg = 1)
+
+ghg("nitrogen", kg = 2)
+
+ghg("methane", kg = 5)
+```
+
+```{r}
+ghg<- function(element, kg){
+  
+ element<- c("carbon"[5.077], "nitrogen"[624.643], "methane"[37.333])
+ ghg = "element"*kg
+ 
+  return(ghg)
+}
+
+ghg("carbon", 13)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
