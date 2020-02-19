@@ -13,41 +13,15 @@ Make an example fucntion
 ```{r}
 ghg<- function(element, kg){
   
-  if(element == "carbon"){
-    return(5.077*kg)
-    
-    } 
-  else if(element == "nitrogen"){
-    return(624.643*kg)
-  }
+  if(element == "C"){return(5.077*kg)} 
   
-  else if (element == "methane"){return(37.333*kg)}
+  else if(element == "N2O"){return(624.643*kg)}
+  
+  else if (element == "CH4"){return(37.333*kg)}
 }
 
-ghg("carbon", kg = 1)
 
-ghg("nitrogen", kg = 2)
-
-ghg("methane", kg = 5)
 ```
-
-```{r}
-ghg<- function(element, kg){
-  
- element<- c("carbon"[5.077], "nitrogen"[624.643], "methane"[37.333])
- ghg = "element"*kg
- 
-  return(ghg)
-}
-
-ghg("carbon", 13)
-```
-
-
-
-
-
-
 
 
 
